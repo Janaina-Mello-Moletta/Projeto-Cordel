@@ -13,39 +13,35 @@
    margin:0px;
    padding:0px;
    font-size:1em;
-
 }
-
-html body {
-background-color:azure;
-font-family:var(--fonte01);
-min-width:100vh;
+  html body {
+  background-color:azure;
+  font-family:var(--fonte01);
+  min-width:100vh;
 }
-header {
+  header {
   background-color:black;
   color:white;
   text-align:center;
 }
-
-header > h1 {
- padding-top:50px;
- font-family:var(--fonte02);
- font-variant:small-caps;
- font-size:5vw;
+  header > h1 {
+  padding-top:50px;
+  font-family:var(--fonte02);
+  font-variant:small-caps;
+  font-size:5vw;
 }
-header > p {
+  header > p {
   padding-bottom:50px;
 }
-header a, footer a {
+  header a, footer a {
   color:white;
   font-weight:bold;
   text-decoration:none;
-
 }
-header a:hover,footer a:hover {
+  header a:hover,footer a:hover {
   text-decoration:underline;
 }
-section {
+ section {
   padding-top:10vh;
   padding-bottom:10vh;
   padding-left:30px;
@@ -53,31 +49,31 @@ section {
   font-size:4vw;
   line-height:2em;
 }
-section > p {
- padding-bottom:2em;
+  section > p {
+  padding-bottom:2em;
 }
-section.normal {
+  section.normal {
   background-color:white;
   color:black;
 }
-section.imagem {
+  section.imagem {
   background-color:rgba(0, 0, 0, 0.795);
   color:white;
   box-shadow:inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
   background-attachment:fixed;
 }
   section.imagem > p {
-    display:inline-block;
-    padding:5px;
-    background-color:rgba(0, 0, 0, 0.514);
-    text-shadow:1px 1px 0px black;
+  display:inline-block;
+  padding:5px;
+  background-color:rgba(0, 0, 0, 0.514);
+  text-shadow:1px 1px 0px black;
  }
- section#img1 {
+  section#img1 {
   background-image:url('../imagens/imagem1.jpg');
   background-position:right center;
   background-size:cover;
  }
- section#img2 {
+  section#img2 {
   background-image:url('../imagens/imagem2.jpg');
   background-position:right center;
   background-size:cover;
